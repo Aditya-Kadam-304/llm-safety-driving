@@ -36,12 +36,12 @@ This thesis proposes a **middle ground**: treat the LLM as a *constrained adviso
 The pipeline implements **ISO 26262 defence-in-depth** with six independent safety barriers:
 
 <p align="center">
-  <img src="results/pipeline_diagram_partA.png" alt="Pipeline Part A — Sensor Acquisition & Validation" width="700"/>
+  <img src="results/pipeline_diagram_partA.drawio.png" alt="Pipeline Part A — Sensor Acquisition & Validation" width="700"/>
 </p>
 <p align="center"><em>Part A — Sensor acquisition, integrity gate, encoding, and runtime monitoring</em></p>
 
 <p align="center">
-  <img src="results/pipeline_diagram_partB.png" alt="Pipeline Part B — Decision & Evaluation" width="700"/>
+  <img src="results/pipeline_diagram_partB.drawio.png" alt="Pipeline Part B — Decision & Evaluation" width="700"/>
 </p>
 <p align="center"><em>Part B — BIST diagnostics, LLM advisory, Safety Cage override, and oracle evaluation</em></p>
 
@@ -129,8 +129,8 @@ All 16 plots are available in [`results/plots/`](results/plots/).
 │
 └── results/                 # Experimental outputs (seed=44)
     ├── results.csv          # 3,750 decisions × 27 columns
-    ├── pipeline_diagram_partA.png
-    ├── pipeline_diagram_partB.png
+    ├── pipeline_diagram_partA.drawio.png
+    ├── pipeline_diagram_partB.drawio.png
     └── plots/               # 16 publication-ready plots
         ├── ablation_accuracy.png
         ├── ablation_heatmap.png
