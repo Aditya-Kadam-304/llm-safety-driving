@@ -162,7 +162,7 @@ All 16 plots are available in [`results/plots/`](results/plots/).
 ### Setup
 
 ```bash
-git clone https://github.com/<your-username>/llm-safety-driving.git
+git clone https://github.com/Aditya-Kadam-304/llm-safety-driving.git
 cd llm-safety-driving
 
 conda create -n adi python=3.10 -y
